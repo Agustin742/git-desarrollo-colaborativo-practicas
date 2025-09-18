@@ -52,3 +52,19 @@ git add .
 ```sh
 git commit -m "mensaje"
 ```
+
+## para ver el historial de commits completo
+```sh
+git log
+```
+
+## para ver un resumen del historial de commits
+```sh
+git log --oneline
+```
+
+## Para ver la diferencia y poder comparar entre el working directory y el repo local
+```sh
+git diff
+```
+
