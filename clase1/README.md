@@ -39,32 +39,62 @@ rm -rf .git
 ```
 
 ## Para ver el estado de los archivos
+
 ```sh
 git status
 ```
 
 ## Para pasar los archivos del working directory al staging area
+
 ```sh
 git add .
 ```
 
 ## Para pasar los archivos del staging area al repo local
+
 ```sh
 git commit -m "mensaje"
 ```
 
 ## para ver el historial de commits completo
+
 ```sh
 git log
 ```
 
 ## para ver un resumen del historial de commits
+
 ```sh
 git log --oneline
 ```
 
 ## Para ver la diferencia y poder comparar entre el working directory y el repo local
+
 ```sh
 git diff
 ```
 
+## Para agregagr un el repo remoto
+
+```sh
+git remote add origin URL
+```
+
+## Para ver las rutas del repo remoto
+
+```sh
+git remote -v
+```
+
+## Para subir todos los comits 
+
+```sh
+git push -u origin main
+```
+
+## Ayuda Comandos
+
+```sh
+git <comando> --help
+git status --help
+```
