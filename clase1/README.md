@@ -74,7 +74,7 @@ git log --oneline
 git diff
 ```
 
-## Para agregagr un el repo remoto
+## Para agregagr el repo remoto
 
 ```sh
 git remote add origin URL
@@ -86,7 +86,7 @@ git remote add origin URL
 git remote -v
 ```
 
-## Para subir todos los comits 
+## Para subir todos los comits  la primera vez
 
 ```sh
 git push -u origin main
@@ -97,4 +97,9 @@ git push -u origin main
 ```sh
 git <comando> --help
 git status --help
+```
+
+## Status recortado
+```sh
+git status -s
 ```
