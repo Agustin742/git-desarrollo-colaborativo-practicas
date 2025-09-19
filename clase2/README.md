@@ -89,3 +89,18 @@ git switch -c feature/ramas
 git diff <rama-con-la-cual-quiero-comparar>
 git diff main
 ```
+
+## Borrado de ramas
+
+```
+git branch -d <nombre de rama>
+git branch -d dev
+```
+
+## Borrado de ramas forzada
+si el commit de la rama no se encuentra en cualquier otra rama del repo me va a pedir la confirmacion git
+
+```
+git branch -D <nombre de rama>
+git branch -D dev
+```
