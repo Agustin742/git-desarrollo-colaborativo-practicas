@@ -56,3 +56,29 @@ git diff
 ```sh
 git branch
 ```
+
+### Litsar ramas remotas Y locales
+```sh
+git branch -av
+```
+
+### Crear un rama
+
+```sh
+git branch <nombre-rama>
+git branch feature/ramas
+```
+
+### Cambiarme a la rama
+
+```sh
+git switch <nombre-rama>
+git switch feature/ramas
+```
+
+### Crear una rama y moverse a la rama creada
+
+```sh
+git switch -c <nombre-rama>
+git switch -c feature/ramas
+```
