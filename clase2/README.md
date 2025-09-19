@@ -33,3 +33,17 @@ git commit -a # se hace un add a los archivos modificados, no se hace un add los
 git commit -am "mensaje" # se agregan los archivos modificados y no se abre el editor para escribir el mensaje
 ```
 **NOTA**: Los mensajes idealmente pueden tener maximo 80 caracteres
+
+### Ver los commits dentro del repo
+
+```sh
+git log # largo con detalle
+git log --oneline # corto solo el mensaje
+git log -2 # me muestra los ultimos 2 commits del listado
+git log --oneline -2 # muestra los 2 ultimos commits cortos
+```
+
+## Ver la diferencia entre el WK(working directory) y el Local repo
+```sh
+git diff
+```
