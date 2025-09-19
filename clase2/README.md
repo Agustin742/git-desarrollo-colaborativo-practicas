@@ -47,3 +47,12 @@ git log --oneline -2 # muestra los 2 ultimos commits cortos
 ```sh
 git diff
 ```
+
+## Emepezando con ramas
+
+
+### Lista las rams locales
+
+```sh
+git branch
+```
