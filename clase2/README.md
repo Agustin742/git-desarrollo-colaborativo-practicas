@@ -92,7 +92,7 @@ git diff main
 
 ## Borrado de ramas
 
-```
+```sh
 git branch -d <nombre de rama>
 git branch -d dev
 ```
@@ -100,7 +100,7 @@ git branch -d dev
 ## Borrado de ramas forzada
 si el commit de la rama no se encuentra en cualquier otra rama del repo me va a pedir la confirmacion git
 
-```
+```sh
 git branch -D <nombre de rama>
 git branch -D dev
 ```
