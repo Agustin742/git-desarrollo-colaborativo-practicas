@@ -105,3 +105,8 @@ git config --global alias.amend "--amend -no-edit"
 git config --global alias.c "commit -m"
 ```
 
+### Listar los alias que tengo cargados
+
+```sh
+git config --get-regexp alias
+```
