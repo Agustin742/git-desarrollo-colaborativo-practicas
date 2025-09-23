@@ -87,4 +87,8 @@ git add . # agrego archivos o lineas que faltaron
 git commit --amend --no-edit # evito cambiar el mensaje
 ```
 
+## Agregar  modificacciones de archvios granularmente (agregar partes del codigo agregado en un archivo)
+
+```sh
+git add --patch
 ```
