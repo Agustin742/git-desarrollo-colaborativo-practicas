@@ -111,7 +111,7 @@ git config --global alias.c "commit -m"
 git config --get-regexp alias
 ```
 
-## Fusiones y merges
+## Tipos de conflictos y como trabajarlos. (Merges)
 
 * Fast-forward -> Automatico -> Soluciona git (No crea commit de fusion)
 * Tercer via -> Automatico -> soluciona GIT (Si crea commit de fusion)
