@@ -78,3 +78,13 @@ git merge <nombre-rama>
 git switch main
 git merge dev
 ```
+
+
+## Hacer un commit sin cammbiar el mensaje pero agregando archvios o lineas de codigo que nos faltaron guardar
+
+```sh
+git add . # agrego archivos o lineas que faltaron
+git commit --amend --no-edit # evito cambiar el mensaje
+```
+
+```
