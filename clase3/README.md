@@ -116,3 +116,5 @@ git config --get-regexp alias
 * Fast-forward -> Automatico -> Soluciona git (No crea commit de fusion)
 * Tercer via -> Automatico -> Soluciona GIT (Si crea commit de fusion)
 * Conflicto -> Manual -> No lo soluciona GIT, Tengo que trebajar yo (Se crea un commit solucion)
+
+## Git Stash
