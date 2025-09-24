@@ -6,4 +6,10 @@
 * no se pueden subir
 * Trabaj con una estructura de pila
 
-![fifo-lifo](_ref/image.png)
+![fifo-lifo](_ref/image.jpeg)
+
+### listar los Stashes
+
+```sh
+git stash list
+```
