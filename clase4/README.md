@@ -74,3 +74,30 @@ Me permite deshacer uno o varios commits y los cambios los descarta (CUIDAD PIER
 ```sh
 git reset --hard <hash>
 ```
+
+## GIT tags
+
+### 2 Tipos de punteros. Punteros estatico y los punteros Dinamicos
+
+#### Estaticos
+> Tags
+
+#### Dinamicos
+> HEAD, Ramas
+
+### Crear un tags
+
+```sh
+git tag <nombre-de-la-version>
+git tag -a <nombre-de-la-version> -m "Mensaje"
+
+#ejemplo de tag en el utlimo commit 
+git tag -a v1.0 -m  "Version 1.0 de la APP"
+# ejemplo de tag en un commit especifico
+git tag -a v0.8 -m  "Version no final" 75c5de8
+```
+
+### Listar tags creados
+```sh
+git tag --list
+```
