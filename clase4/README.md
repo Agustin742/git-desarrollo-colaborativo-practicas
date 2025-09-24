@@ -27,3 +27,9 @@ git stash show <Identificador-del-Stash>
 git stash show 0
 git stash show stash{0}
 ```
+
+### Recuperar el stash
+
+```sh
+gits stash pop # recuepera el ultimo stash realizado si no hay conflictos lo borra
+```
