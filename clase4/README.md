@@ -101,3 +101,15 @@ git tag -a v0.8 -m  "Version no final" 75c5de8
 ```sh
 git tag --list
 ```
+
+### subir al remoto los tags
+
+```sh
+git push origin --tags # sube todos los tags (No se recomienda)
+git push origin v1.0
+```
+
+### Borrar tags
+```sh
+git tag -d <nombre-del-tag>
+```
